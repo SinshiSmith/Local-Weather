@@ -1,0 +1,31 @@
+body {
+    background-color: #3B0096;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+}
+.app {
+    border:0;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+    background-color: #fff5;
+    color: #fff;
+}
+#temp, #type {
+    display: inline;
+    margin: 5px;
+    user-select: none;
+}
+#type {
+    color: #4c11a7;
+    cursor: pointer;
+    user-select: none;
+}
